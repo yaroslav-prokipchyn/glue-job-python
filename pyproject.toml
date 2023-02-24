@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gluejobpython"
+version = "0.1.0"
+description = ""
+authors = ["Yaroslav Prokipchyn <yaroslav.prokipchyn@vitechteam.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "^3.3.1"
+aws-glue-libs = { git = "git@github.com:awslabs/aws-glue-libs.git" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
